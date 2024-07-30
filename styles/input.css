@@ -1,1 +1,120 @@
-body {color:#333;}
+/* CSS Restes */
+body, p, ul {
+    margin: initial;
+    padding: initial;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2 {
+    margin: initial;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body {
+    background-image: url("./images/background.png");
+    background-size: cover;
+
+}
+div {
+    background-color: #ddd;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-color: #ddd;
+    width: 800px;
+    margin: 60px auto;
+}
+
+.header {
+
+    background-size: cover;
+
+    background-image: url("./images/cover03.png");
+    text-align: center;
+    height: auto;
+    min-height: 400px;
+    color: mintcream;
+
+ 
+    padding: 60px 0;
+    box-sizing: border-box;
+}
+
+.header img.profile {
+    border: 5px solid mintcream;
+    border-radius: 50%;
+    width: 140px;
+    margin: 10px auto;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header p{
+    border-top: 4px solid;
+    width: fit-content;
+    padding: 13px 20px;
+    margin: 15px auto;
+    border-radius: 70%;
+    border-color: #dd732c;
+    
+}
+
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px; 
+    width: auto;
+
+    background-repeat: no-repeat;
+    background-position: right 20px center; 
+}
+
+
+.section.information {
+    background-image: url(images/icon-information.png);
+    border-radius: 25px;
+}
+
+.section.skill {
+    background-image: url(images/icon-skills.png);
+    border-radius: 25px;
+}
+
+.section h2 {
+    font-size: 28px;
+    color: #dd732c;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list li {
+    border-left: 5px solid #999;
+    padding: 4px 10px;
+
+    transition: all .4s; 
+}
+
+
+.list li:hover {
+    border-color: #dd732c;
+    color: #dd732c;
+    font-size: 20px
+}
+
+.footer {
+    background-color: #f4f4f4;
+    padding: 12px 0;
+    text-align: center;
+    color: #999;
+    
+}
